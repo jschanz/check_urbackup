@@ -29,3 +29,8 @@ Create a new user in the web ui and execute the following command
 ```bash
 '/usr/bin/python3' '/usr/lib/nagios/plugins/check_urbackup.py' '--host' 'urbackup.host.domain' '--password' 'vaitee4Gi2iex2meengaoqu6' '--user' 'icinga2'
 ```
+### Icinga2 Output
+![Urbackup Icinga2](https://raw.githubusercontent.com/jschanz/check_urbackup/master/img/urbackup_icinga2.png)
+
+### Icinga2 Perfdata (Grafana)
+![Urbackup Perfdata (Grafana)](https://raw.githubusercontent.com/jschanz/check_urbackup/master/img/urbackup_perfdata.png)
