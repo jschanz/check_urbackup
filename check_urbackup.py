@@ -91,7 +91,6 @@ if args.host or args.user or args.password:
                 #print(Globelstat)
                 print("OK: There are " + str(Perfdata_OK) + " Backups in state OK \n\t-> OK:" + str(Perfdata_OK) + " WARNING:" + str(Perfdata_WARNING) + " CRITICAL:" + str(Perfdata_CRITICAL) + "\n")
                 exitCode = 0
-                breaksys.exit(0)
                 break
             else:
                 print("UNKOWN: Please check manually, why state is Unknown")
